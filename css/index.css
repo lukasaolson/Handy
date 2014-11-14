@@ -1,0 +1,466 @@
+body {
+  background-color: rgb(39, 170, 225);
+  font: 300 2.375em/0.3 Raleway;
+  color: rgb(255, 255, 255);
+}
+
+.account,
+.support,
+.tutor {
+  display: block;
+  width: 204px;
+  height: 53px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 0.632em;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 153, 51);
+}
+
+.element {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 17;
+  width: 327px;
+  height: 902px;
+  margin: -409px -122px 0 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.result1 {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 10;
+  width: 99.8866150442%;
+  height: 96px;
+  margin-top: -96px;
+  border-radius: 3px;
+  font-size: 0.737em;
+  font-weight: 500;
+  line-height: 3.5;
+  color: rgb(255, 255, 255);
+}
+
+.result2 {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 99.8866150442%;
+  height: 96px;
+  margin-top: -96px;
+  border-radius: 3px;
+  font-size: 0.737em;
+  font-weight: 500;
+  line-height: 3.5;
+  color: rgb(255, 255, 255);
+}
+
+.result3 {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 4;
+  width: 99.8866150442%;
+  height: 96px;
+  margin-top: -96px;
+  border-radius: 3px;
+  font-size: 0.737em;
+  font-weight: 500;
+  line-height: 3.5;
+  color: rgb(255, 255, 255);
+}
+
+.result4 {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 99.8866150442%;
+  height: 96px;
+  margin-top: -96px;
+  border-radius: 3px;
+  font-size: 0.737em;
+  font-weight: 500;
+  line-height: 3.5;
+  color: rgb(255, 255, 255);
+}
+
+.settings {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 25;
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.421em/1.38 Arial;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.sign-out {
+  display: block;
+  width: 204px;
+  height: 53px;
+  margin: 94px auto 0;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 0.632em;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 153, 51);
+}
+
+.text {
+  position: absolute;
+  top: 258px;
+  left: 25%;
+  z-index: 16;
+  width: 50%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  z-index: 14;
+  width: 1%;
+  height: 1px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font: 400 0.421em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: absolute;
+  top: 296px;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  width: 565px;
+  height: 67px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 8px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background-color: rgb(39, 170, 225);
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.27);
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 2.2;
+  color: rgb(255, 255, 255);
+}
+
+._input:active,
+._input:hover {
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.27);
+}
+
+.container-1 {
+  position: absolute;
+  top: 416px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 47.0833333333%;
+  height: 724px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container-10 {
+  float: left;
+  clear: both;
+  width: 92.3926119878%;
+  height: 947px;
+  margin: -146px 0 0 40px;
+}
+
+.container-11 {
+  position: relative;
+  float: left;
+  z-index: 22;
+  width: 100%;
+  height: 306px;
+  margin-top: 106px;
+}
+
+.container-2 {
+  float: left;
+  width: 100%;
+  height: 315px;
+  margin-left: 100.97345%;
+  overflow: scroll;
+}
+
+.container-3 {
+  float: left;
+  width: 99.8233215547%;
+  height: 96px;
+}
+
+.container-4,
+.container-5 {
+  float: left;
+  clear: both;
+  width: 99.8233215547%;
+  height: 96px;
+  margin-top: 10px;
+}
+
+.container-6 {
+  float: left;
+  clear: both;
+  width: 99.8231213553%;
+  height: 96px;
+  margin-top: 10px;
+}
+
+.container-7 {
+  float: right;
+  width: 21.6666666666%;
+  height: 947px;
+  overflow: hidden;
+}
+
+.container-8 {
+  float: right;
+  width: 85%;
+  height: 947px;
+  margin-right: -70%;
+}
+
+.container-9 {
+  position: relative;
+  float: right;
+  width: 16.3258085061%;
+  height: 36px;
+  margin: 65px 204px 0 0;
+}
+
+.image-1 {
+  z-index: 9;
+  width: 96px;
+  margin-left: -0.06095%;
+}
+
+.image-2 {
+  z-index: 6;
+  width: 96px;
+  margin-left: -0.05818%;
+}
+
+.image-3 {
+  z-index: 3;
+  width: 96px;
+  margin-left: -0.05818%;
+}
+
+.image-4 {
+  z-index: 0;
+  width: 96px;
+  margin-left: -0.05818%;
+}
+
+.image-5 {
+  z-index: 24;
+  width: 36px;
+}
+
+@media(max-width: 1000px) {
+  body {
+    font-size: 1.875em;
+  }
+
+  .container .element {
+    position: relative;
+    z-index: 17;
+    margin-top: -544px;
+    margin-right: 9.32639%;
+  }
+
+  .container .image {
+    position: relative;
+    height: auto;
+  }
+
+  .container .result1 {
+    position: relative;
+    z-index: 10;
+    font-size: 0.933em;
+  }
+
+  .container .result2 {
+    position: relative;
+    z-index: 7;
+    font-size: 0.933em;
+  }
+
+  .container .result3 {
+    position: relative;
+    z-index: 4;
+    font-size: 0.933em;
+  }
+
+  .container .result4 {
+    position: relative;
+    z-index: 1;
+    font-size: 0.933em;
+  }
+
+  .container .settings {
+    left: auto;
+    right: 4.3496621621%;
+    font-size: 0.533em;
+  }
+
+  .container .account,
+  .container .sign-out,
+  .container .support {
+    float: left;
+    clear: both;
+    margin-right: 0;
+    margin-left: 31.19975%;
+    font-size: 0.8em;
+  }
+
+  .container .tutor {
+    float: left;
+    margin-right: 0;
+    margin-left: -0.11036%;
+    font-size: 0.8em;
+  }
+
+  .text {
+    left: 0;
+    right: 0;
+    width: 37.8%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+  }
+
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.533em;
+  }
+
+  ._input {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.267em;
+  }
+
+  .container .container-10 {
+    position: relative;
+    z-index: 23;
+    width: 110.294117647%;
+    margin-top: -101px;
+    margin-left: 0;
+  }
+
+  .container .container-11 {
+    position: relative;
+    z-index: 22;
+    width: 132.1527777777%;
+    margin-top: 162px;
+    margin-left: -41.3263900001%;
+  }
+
+  .container .container-2 {
+    margin-left: 100.9989%;
+  }
+
+  .container .container-6 {
+    width: 99.824223932%;
+    margin-top: 50px;
+    margin-left: 20.1739%;
+  }
+
+  .container .container-8 {
+    width: 100%;
+    margin-top: 56px;
+    margin-right: -100%;
+  }
+
+  .container .container-9 {
+    position: relative;
+    float: left;
+    z-index: 26;
+    width: 17.6470588235%;
+    margin-right: 0;
+    margin-left: 6.86275%;
+  }
+
+  .container .image-1 {
+    z-index: 9;
+    margin-left: -0.05652%;
+  }
+
+  .container .image-2 {
+    z-index: 6;
+    margin-left: -0.05652%;
+  }
+
+  .container .image-3 {
+    z-index: 3;
+    margin-left: -0.05652%;
+  }
+
+  .container .image-4 {
+    z-index: 0;
+    margin-left: -0.05652%;
+  }
+
+  .container .image-5 {
+    z-index: 24;
+    margin-left: -1.64931%;
+  }
+
+  .container-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-7 {
+    position: relative;
+    z-index: 28;
+    width: 20.4%;
+    margin-right: 204px;
+  }
+}

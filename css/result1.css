@@ -1,0 +1,289 @@
+body {
+  background-color: rgb(39, 170, 225);
+  font: 300 1em/1.38 Raleway;
+  color: rgb(255, 255, 255);
+}
+
+.container .container {
+  float: left;
+}
+
+.element {
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(39, 170, 225);
+}
+
+.element .image {
+  width: 169px;
+  margin: 7px 0 0 20px;
+}
+
+.element .text {
+  padding-left: 10px;
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.container-1 {
+  position: absolute;
+  top: 389px;
+  left: 0;
+  right: 0;
+  z-index: 37;
+  width: 61.3333333333%;
+  height: 687px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.container-2 {
+  position: absolute;
+  top: 117px;
+  left: 0;
+  right: 0;
+  z-index: 12;
+  width: 61.3333333333%;
+  height: 245px;
+  margin: 0 auto;
+}
+
+.container-3 {
+  position: relative;
+  width: 245px;
+  height: 245px;
+}
+
+.container-4 {
+  width: 58.5597826086%;
+  height: 231px;
+  margin-left: 8.14156%;
+}
+
+.container-5 {
+  position: relative;
+  z-index: 10;
+  width: 77.976363109%;
+  height: 80px;
+  margin-top: -64px;
+}
+
+.element-2,
+.element-3,
+.element-4,
+.element-5 {
+  clear: both;
+}
+
+.element-6 {
+  position: relative;
+  clear: both;
+}
+
+.image-1 {
+  z-index: 31;
+}
+
+.image-2 {
+  z-index: 27;
+}
+
+.image-3 {
+  z-index: 23;
+}
+
+.image-4 {
+  z-index: 19;
+}
+
+.image-5 {
+  z-index: 15;
+}
+
+.image-6 {
+  z-index: 35;
+}
+
+.image-7 {
+  z-index: 0;
+  width: 245px;
+}
+
+.image-8 {
+  z-index: 2;
+  width: 51px;
+  margin: -35px 0 0 9px;
+}
+
+.text-1 {
+  position: relative;
+  z-index: 29;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.text-11 {
+  position: relative;
+  z-index: 33;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.text-10,
+.text-12,
+.text-2,
+.text-4,
+.text-6,
+.text-8 {
+  clear: both;
+  width: 100%;
+  min-height: 109px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+
+.text-13 {
+  position: relative;
+  z-index: 4;
+  width: 427px;
+  min-height: 147px;
+  margin-top: 68px;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.text-14 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  margin-top: -215px;
+  font-size: 3.125em;
+}
+
+.text-3 {
+  position: relative;
+  z-index: 25;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.text-5 {
+  position: relative;
+  z-index: 21;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.text-7 {
+  position: relative;
+  z-index: 17;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.text-9 {
+  position: relative;
+  z-index: 13;
+  font-size: 1.875em;
+  font-weight: 400;
+}
+
+.container ._button-1 {
+  clear: both;
+  z-index: 1;
+  width: 245px;
+  height: 245px;
+  margin-top: -245px;
+  font-size: 1.75em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0);
+}
+
+.container ._button-1:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(0, 0, 0, 0.57);
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-2 {
+  z-index: 9;
+  width: 48.4235905044%;
+  height: 37px;
+  margin-left: 0.01395%;
+  border-radius: 3px;
+  background-color: rgb(177, 0, 0);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-3 {
+  z-index: 8;
+  width: 48.4235905044%;
+  height: 37px;
+  margin-left: 2.81743%;
+  border-radius: 3px;
+  background-color: rgb(228, 222, 0);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-4 {
+  clear: both;
+  z-index: 7;
+  width: 48.4235905044%;
+  height: 37px;
+  margin: 6px 0 0 -0.01395%;
+  border-radius: 3px;
+  background-color: rgb(29, 189, 0);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.container ._button-5 {
+  z-index: 6;
+  width: 48.4235905044%;
+  height: 37px;
+  margin: 6px 0 0 2.87322%;
+  border-radius: 3px;
+  background-color: rgb(104, 0, 228);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}

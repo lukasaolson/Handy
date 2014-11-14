@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>videochat</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/videochat-grid.css">
+  <link rel="stylesheet" href="css/videochat.css">
+</head>
+<body class="body page-videochat clearfix">
+  <div class="wrapper"><script>
+(function(d, w) {
+ var x = d.getElementsByTagName('SCRIPT')[0];
+ var f = function () {
+ var s = d.createElement('SCRIPT');
+ s.type = 'text/javascript';
+ s.setAttribute('ovx-widget','ovxplayer'); // Mandatory
+ s.setAttribute('ovx-apikey','myAPIKey'); // Mandatory
+ s.setAttribute('ovx-name','Guest'); // Mandatory       
+ s.setAttribute('ovx-session','SomeUniqueSessionID'); // Mandatory
+ s.setAttribute('ovx-autostart',false); // Default false
+ s.setAttribute('ovx-render','embed');  // Default popup
+ s.setAttribute('ovx-width','600'); // Default 400
+ s.setAttribute('ovx-height','320'); // Default 320
+ s.setAttribute('ovx-chat','enable'); // Default disable
+ s.setAttribute('ovx-record','enable'); // Default enable
+ s.setAttribute('ovx-dialout','enable'); // Default enable
+ s.setAttribute('ovx-cc','1'); // Optional
+ s.setAttribute('ovx-number','4695551212'); // Optional
+
+ s.src = "//ovx.me/ovxplayer/ovx-embed-ovxplayer.js?v1";
+ x.parentNode.insertBefore(s, x);
+ };  
+ w.attachEvent ? w.attachEvent('onload', f) : w.addEventListener('load', f, false);
+}(document, window));
+</script> </div>
+</body>
+</html>

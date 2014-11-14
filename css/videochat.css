@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(39, 170, 225);
+  font-size: 1em;
+}
+
+.wrapper {
+  float: left;
+  width: 40.8333333333%;
+  height: 374px;
+  margin: 188px 0 0 31.16667%;
+  overflow: hidden;
+}
